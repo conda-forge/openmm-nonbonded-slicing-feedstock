@@ -14,7 +14,7 @@ source:
   url: https://github.com/craabreu/openmm-nonbonded-slicing/archive/v{{ version }}.tar.gz
   sha256: 1d88f618ae5bff1fb1c09aa9fa34a943c5a62b2cbe77684fd1835d4b11eb29b3
 build:
-  number: 0
+  number: 1
   string: cuda{{ cuda_compiler_version | replace('.', '') }}py{{ CONDA_PY }}h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}  # [cuda_compiler_version != "None"]
   string: cpu_py{{ CONDA_PY }}h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}  # [cuda_compiler_version == "None"]
   skip: true  # [win]
