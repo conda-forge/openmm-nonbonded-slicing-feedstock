@@ -29,6 +29,7 @@ requirements:
     - numpy >=1.19                           # [build_platform != target_platform]
     - swig <4.1                              # [build_platform != target_platform]
     - openmm >=8.0.0                         # [build_platform != target_platform]
+    - setuptools >=65.5.1,<69                # [build_platform != target_platform]
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
     - {{ compiler('cuda') }}  # [cuda_compiler_version not in (undefined, 'None')]
@@ -43,6 +44,8 @@ requirements:
   host:
     - python
     - pip
+    - setuptools >=65.5.1,<69
+    - wheel
     - swig <4.1
     - openmm >=8.0.0
     - ocl-icd  # [linux]
