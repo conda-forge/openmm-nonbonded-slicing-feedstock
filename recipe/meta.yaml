@@ -29,7 +29,6 @@ requirements:
     - numpy >=1.19                           # [build_platform != target_platform]
     - swig <4.1                              # [build_platform != target_platform]
     - openmm >=8.0.0                         # [build_platform != target_platform]
-    - {{ stdlib("c") }}
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
     - {{ compiler('cuda') }}  # [cuda_compiler_version not in (undefined, 'None')]
