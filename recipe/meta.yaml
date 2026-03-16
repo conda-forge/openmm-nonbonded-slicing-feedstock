@@ -14,7 +14,7 @@ source:
   url: https://github.com/craabreu/openmm-nonbonded-slicing/archive/v{{ version }}.tar.gz
   sha256: 1d88f618ae5bff1fb1c09aa9fa34a943c5a62b2cbe77684fd1835d4b11eb29b3
 build:
-  number: 2
+  number: 3
   string: cuda{{ cuda_compiler_version | replace('.', '') }}py{{ CONDA_PY }}h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}  # [cuda_compiler_version != "None"]
   string: cpu_py{{ CONDA_PY }}h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}  # [cuda_compiler_version == "None"]
   skip: true  # [win]
@@ -32,7 +32,6 @@ requirements:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
     - {{ compiler('cuda') }}  # [cuda_compiler_version not in (undefined, 'None')]
-    - {{ cdt('mesa-libgl-devel') }}  # [linux]
     {% if cuda_major >= 12 %}
     - cuda-driver-dev
     - cuda-nvrtc-dev
@@ -57,6 +56,7 @@ requirements:
     - libcufft-dev
     - libcurand-dev
     {% endif %}
+    - libgl-devel                    # [linux]
   run:
     - python
     - {{ pin_compatible('openmm', max_pin='x.x') }}
