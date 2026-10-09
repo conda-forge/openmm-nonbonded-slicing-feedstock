@@ -22,6 +22,9 @@ build:
   skip: true  # [linux64 and cuda_compiler_version in (undefined, 'None')]
   rpaths:
     - lib/
+  # The CUDA driver library comes from the system's NVIDIA driver, not from a conda package
+  missing_dso_whitelist:
+    - "*/libcuda.so*"  # [linux]
 
 requirements:
   build:
