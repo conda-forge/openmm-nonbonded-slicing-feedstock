@@ -1,0 +1,14 @@
+# Each OpenMM minor version must be paired with the SWIG version used to build it
+# on conda-forge, since the plugin's Python wrapper has to match OpenMM's.
+openmm:
+  - 8.4.0
+  - 8.5.2
+  - 8.6.1
+swig:
+  - 4.4.1
+  - 4.4.1
+  - 4.5.1
+zip_keys:
+  -
+    - openmm
+    - swig

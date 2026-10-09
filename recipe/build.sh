@@ -4,7 +4,11 @@ set -euxo pipefail
 
 rm -rf build || true
 
-CMAKE_FLAGS="-DOPENMM_DIR=${PREFIX} -DOPENMM_VERSION=$(python -c 'import openmm; print(openmm.__version__)')"
+# conda-build exports the openmm variant, which avoids importing openmm (impossible when cross-compiling)
+OPENMM_VERSION=${openmm:-$(python -c 'import openmm; print(openmm.__version__)')}
+
+CMAKE_FLAGS="-DOPENMM_DIR=${PREFIX} -DOPENMM_VERSION=${OPENMM_VERSION}"
+CMAKE_FLAGS+=" -DVKFFT_INCLUDE_DIR=${SRC_DIR}/vkfft/vkFFT"
 if [[ "$target_platform" == osx* ]]; then
     CMAKE_FLAGS+=" -DCMAKE_OSX_SYSROOT=${CONDA_BUILD_SYSROOT}"
     CMAKE_FLAGS+=" -DCMAKE_OSX_DEPLOYMENT_TARGET=${MACOSX_DEPLOYMENT_TARGET}"
