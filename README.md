@@ -23,14 +23,7 @@ Current build status
 ====================
 
 
-<table><tr>
-    <td>GitHub Actions</td>
-    <td>
-      <a href="https://github.com/conda-forge/openmm-nonbonded-slicing-feedstock/actions/workflows/conda-build.yml">
-        <img src="https://github.com/conda-forge/openmm-nonbonded-slicing-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main">
-      </a>
-    </td>
-  </tr>
+<table>
     
   <tr>
     <td>Azure</td>
@@ -44,6 +37,174 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
+              <td>linux_64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14openmm8.4.0python3.11.____cpythonswig4.4.1</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21059&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/openmm-nonbonded-slicing-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14openmm8.4.0python3.11.____cpythonswig4.4.1" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14openmm8.4.0python3.12.____cpythonswig4.4.1</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21059&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/openmm-nonbonded-slicing-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14openmm8.4.0python3.12.____cpythonswig4.4.1" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14openmm8.4.0python3.13.____cp313swig4.4.1</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21059&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/openmm-nonbonded-slicing-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14openmm8.4.0python3.13.____cp313swig4.4.1" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14openmm8.4.0python3.14.____cp314swig4.4.1</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21059&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/openmm-nonbonded-slicing-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14openmm8.4.0python3.14.____cp314swig4.4.1" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14openmm8.5.2python3.11.____cpythonswig4.4.1</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21059&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/openmm-nonbonded-slicing-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14openmm8.5.2python3.11.____cpythonswig4.4.1" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14openmm8.5.2python3.12.____cpythonswig4.4.1</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21059&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/openmm-nonbonded-slicing-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14openmm8.5.2python3.12.____cpythonswig4.4.1" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14openmm8.5.2python3.13.____cp313swig4.4.1</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21059&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/openmm-nonbonded-slicing-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14openmm8.5.2python3.13.____cp313swig4.4.1" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14openmm8.5.2python3.14.____cp314swig4.4.1</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21059&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/openmm-nonbonded-slicing-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14openmm8.5.2python3.14.____cp314swig4.4.1" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14openmm8.6.1python3.11.____cpythonswig4.5.1</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21059&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/openmm-nonbonded-slicing-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14openmm8.6.1python3.11.____cpythonswig4.5.1" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14openmm8.6.1python3.12.____cpythonswig4.5.1</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21059&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/openmm-nonbonded-slicing-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14openmm8.6.1python3.12.____cpythonswig4.5.1" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14openmm8.6.1python3.13.____cp313swig4.5.1</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21059&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/openmm-nonbonded-slicing-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14openmm8.6.1python3.13.____cp313swig4.5.1" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14openmm8.6.1python3.14.____cp314swig4.5.1</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21059&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/openmm-nonbonded-slicing-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version14c_stdlib_version2.17cuda_compiler_version12.9cxx_compiler_version14openmm8.6.1python3.14.____cp314swig4.5.1" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.4cxx_compiler_version15openmm8.4.0python3.11.____cpythonswig4.4.1</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21059&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/openmm-nonbonded-slicing-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.4cxx_compiler_version15openmm8.4.0python3.11.____cpythonswig4.4.1" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.4cxx_compiler_version15openmm8.4.0python3.12.____cpythonswig4.4.1</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21059&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/openmm-nonbonded-slicing-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.4cxx_compiler_version15openmm8.4.0python3.12.____cpythonswig4.4.1" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.4cxx_compiler_version15openmm8.4.0python3.13.____cp313swig4.4.1</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21059&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/openmm-nonbonded-slicing-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.4cxx_compiler_version15openmm8.4.0python3.13.____cp313swig4.4.1" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.4cxx_compiler_version15openmm8.4.0python3.14.____cp314swig4.4.1</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21059&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/openmm-nonbonded-slicing-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.4cxx_compiler_version15openmm8.4.0python3.14.____cp314swig4.4.1" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.4cxx_compiler_version15openmm8.5.2python3.11.____cpythonswig4.4.1</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21059&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/openmm-nonbonded-slicing-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.4cxx_compiler_version15openmm8.5.2python3.11.____cpythonswig4.4.1" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.4cxx_compiler_version15openmm8.5.2python3.12.____cpythonswig4.4.1</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21059&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/openmm-nonbonded-slicing-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.4cxx_compiler_version15openmm8.5.2python3.12.____cpythonswig4.4.1" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.4cxx_compiler_version15openmm8.5.2python3.13.____cp313swig4.4.1</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21059&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/openmm-nonbonded-slicing-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.4cxx_compiler_version15openmm8.5.2python3.13.____cp313swig4.4.1" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.4cxx_compiler_version15openmm8.5.2python3.14.____cp314swig4.4.1</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21059&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/openmm-nonbonded-slicing-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.4cxx_compiler_version15openmm8.5.2python3.14.____cp314swig4.4.1" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.4cxx_compiler_version15openmm8.6.1python3.11.____cpythonswig4.5.1</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21059&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/openmm-nonbonded-slicing-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.4cxx_compiler_version15openmm8.6.1python3.11.____cpythonswig4.5.1" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.4cxx_compiler_version15openmm8.6.1python3.12.____cpythonswig4.5.1</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21059&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/openmm-nonbonded-slicing-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.4cxx_compiler_version15openmm8.6.1python3.12.____cpythonswig4.5.1" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.4cxx_compiler_version15openmm8.6.1python3.13.____cp313swig4.5.1</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21059&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/openmm-nonbonded-slicing-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.4cxx_compiler_version15openmm8.6.1python3.13.____cp313swig4.5.1" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.4cxx_compiler_version15openmm8.6.1python3.14.____cp314swig4.5.1</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21059&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/openmm-nonbonded-slicing-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version15c_stdlib_version2.28cuda_compiler_version13.4cxx_compiler_version15openmm8.6.1python3.14.____cp314swig4.5.1" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_64_openmm8.4.0python3.11.____cpythonswig4.4.1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=21059&branchName=main">
